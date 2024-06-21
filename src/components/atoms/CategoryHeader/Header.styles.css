@@ -1,0 +1,48 @@
+h3 {
+  font-size: 24px;
+  font-weight: 520;
+  display: flex;
+  padding-left: 40px;
+}
+
+.category-caret-right {
+  width: 24px;
+  height: 24px;
+  padding-top: 4px;
+}
+
+.category-header-wrapper {
+  cursor: pointer;
+  color: #1867dc;
+}
+
+.category-header-title {
+  text-transform: capitalize;
+}
+
+/* Responsive layout for tablets */
+@media (max-width: 768px) {
+  h3 {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .category-caret-right {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Responsive layout for mobile devices */
+@media (max-width: 480px) {
+  h3 {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .category-caret-right {
+    width: 18px;
+    height: 18px;
+    padding-top: 2px;
+  }
+}

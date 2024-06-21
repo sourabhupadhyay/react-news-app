@@ -1,0 +1,20 @@
+.horizontal-line {
+  width: 100%;
+  margin: 2px 0;
+}
+
+/* Responsive layout for tablets */
+@media (max-width: 768px) {
+  .horizontal-line {
+    width: 95%;
+    margin: 4px 0;
+  }
+}
+
+/* Responsive layout for mobile devices */
+@media (max-width: 480px) {
+  .horizontal-line {
+    width: 90%;
+    margin: 6px 0;
+  }
+}
